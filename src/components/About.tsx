@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const About = () => {
   return (
@@ -56,16 +57,18 @@ const About = () => {
             </div>
           </div>
           <div className="relative mx-auto">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded bg-portfolio-blue/10 overflow-hidden">
+            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded overflow-hidden">
               <div className="absolute inset-0 bg-portfolio-blue/10"></div>
               <div className="w-full h-full relative z-10 p-2">
-                <div className="w-full h-full border-2 border-portfolio-blue rounded"></div>
+                <div className="w-full h-full border-2 border-portfolio-blue rounded overflow-hidden">
+                  <Avatar className="w-full h-full rounded">
+                    <AvatarImage src="/profile-picture.jpg" alt="Dasari Ganesh" className="object-cover" />
+                    <AvatarFallback className="text-portfolio-blue text-xl font-medium">DG</AvatarFallback>
+                  </Avatar>
+                </div>
               </div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-portfolio-blue font-mono">Your Image Here</span>
-              </div>
+              <div className="absolute -bottom-4 -right-4 w-full h-full rounded border-2 border-portfolio-blue z-0"></div>
             </div>
-            <div className="absolute -bottom-4 -right-4 w-full h-full rounded border-2 border-portfolio-blue z-0"></div>
           </div>
         </div>
       </div>
