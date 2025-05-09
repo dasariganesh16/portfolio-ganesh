@@ -30,7 +30,7 @@ const Footer = () => {
               <Twitter size={24} />
             </a>
             <a 
-              href="mailto:hello@example.com" 
+              href="mailto:ganeshdasari166@gmail.com" 
               className="hover:text-portfolio-blue transition-colors"
               aria-label="Email"
             >
@@ -38,7 +38,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-portfolio-lightSlate text-sm">
-            Designed & Built by Your Name
+            Designed & Built by Dasari Ganesh
           </p>
           <p className="text-portfolio-lightSlate text-sm mt-2">
             © {new Date().getFullYear()} All Rights Reserved

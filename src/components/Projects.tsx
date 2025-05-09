@@ -6,17 +6,17 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+      title: "Railway Connect",
+      description: "A railway connection application that helps users find routes, schedules, and book tickets with real-time updates.",
+      technologies: ["React", "Node.js", "Express", "MongoDB"],
       githubLink: "#",
       liveLink: "#",
       image: "/placeholder.svg",
     },
     {
-      title: "Task Management App",
-      description: "A task management application with features like task creation, assignment, progress tracking, and notifications.",
-      technologies: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+      title: "Fitness App",
+      description: "A comprehensive fitness application for workout tracking, nutrition planning, and progress monitoring.",
+      technologies: ["React", "Flask", "PostgreSQL", "REST APIs"],
       githubLink: "#",
       liveLink: "#",
       image: "/placeholder.svg",
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "Weather Dashboard",
       description: "A weather dashboard that displays current weather conditions and forecasts for multiple locations.",
-      technologies: ["React", "OpenWeather API", "Chart.js", "CSS Modules"],
+      technologies: ["React", "Weather API", "CSS", "JavaScript"],
       githubLink: "#",
       liveLink: "#",
       image: "/placeholder.svg",

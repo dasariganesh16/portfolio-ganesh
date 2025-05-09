@@ -9,14 +9,14 @@ const Hero = () => {
         <div className="flex flex-col items-start space-y-4 animate-fade-in-up">
           <p className="text-portfolio-blue font-mono">Hi, my name is</p>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-portfolio-navy">
-            John Doe.
+            Dasari Ganesh.
           </h1>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-slate">
             I build things for the web.
           </h2>
           <p className="text-portfolio-slate max-w-xl mt-5 text-lg">
-            I'm a software developer specializing in building exceptional digital experiences. 
-            Currently, I'm focused on building accessible, human-centered products.
+            I'm a B.Tech final year student passionate about building exceptional digital experiences. 
+            Currently, I'm focused on expanding my skills in full-stack development.
           </p>
           <div className="mt-8 flex space-x-4">
             <Button 

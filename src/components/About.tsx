@@ -10,19 +10,18 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-portfolio-slate text-lg">
-              Hello! I'm John, a passionate web developer with a love for creating beautiful, 
-              functional, and user-centered digital experiences. I started my journey in web 
-              development in 2018, and since then, I've been continuously learning and improving 
-              my skills.
+              Hello! I'm Dasari Ganesh, a B.Tech final year student with a passion for creating 
+              functional and user-centered digital experiences. I started my journey in web 
+              development with a curiosity to build solutions that make a difference.
             </p>
             <p className="text-portfolio-slate text-lg">
-              My focus is on building accessible, inclusive products and digital experiences 
-              for a variety of clients. I have experience working with both frontend and backend 
-              technologies, allowing me to create full-stack applications.
+              My focus is on building accessible, inclusive applications using both frontend and
+              backend technologies. I enjoy the process of transforming ideas into functional
+              websites and applications.
             </p>
             <p className="text-portfolio-slate text-lg">
               When I'm not coding, you can find me exploring new technologies, contributing to 
-              open-source projects, or enjoying outdoor activities like hiking and photography.
+              projects, and continuously enhancing my skills to stay current with industry trends.
             </p>
             <div>
               <h3 className="text-portfolio-navy font-medium mb-2">
@@ -31,7 +30,7 @@ const About = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="flex items-center">
                   <div className="h-1 w-1 rounded-full bg-portfolio-blue mr-2"></div>
-                  <span className="text-portfolio-slate font-mono text-sm">JavaScript (ES6+)</span>
+                  <span className="text-portfolio-slate font-mono text-sm">HTML/CSS</span>
                 </div>
                 <div className="flex items-center">
                   <div className="h-1 w-1 rounded-full bg-portfolio-blue mr-2"></div>
@@ -39,19 +38,19 @@ const About = () => {
                 </div>
                 <div className="flex items-center">
                   <div className="h-1 w-1 rounded-full bg-portfolio-blue mr-2"></div>
-                  <span className="text-portfolio-slate font-mono text-sm">TypeScript</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="h-1 w-1 rounded-full bg-portfolio-blue mr-2"></div>
                   <span className="text-portfolio-slate font-mono text-sm">Node.js</span>
                 </div>
                 <div className="flex items-center">
                   <div className="h-1 w-1 rounded-full bg-portfolio-blue mr-2"></div>
-                  <span className="text-portfolio-slate font-mono text-sm">Tailwind CSS</span>
+                  <span className="text-portfolio-slate font-mono text-sm">Express.js</span>
                 </div>
                 <div className="flex items-center">
                   <div className="h-1 w-1 rounded-full bg-portfolio-blue mr-2"></div>
-                  <span className="text-portfolio-slate font-mono text-sm">Next.js</span>
+                  <span className="text-portfolio-slate font-mono text-sm">MongoDB</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="h-1 w-1 rounded-full bg-portfolio-blue mr-2"></div>
+                  <span className="text-portfolio-slate font-mono text-sm">PostgreSQL</span>
                 </div>
               </div>
             </div>
