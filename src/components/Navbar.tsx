@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,8 +49,14 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Button className="bg-portfolio-blue hover:bg-portfolio-navy text-white">
-            Resume
+          <Button 
+            className="bg-portfolio-blue hover:bg-portfolio-navy text-white"
+            asChild
+          >
+            <a href="/resume.pdf" download>
+              <Download className="mr-2 h-4 w-4" />
+              Resume
+            </a>
           </Button>
         </nav>
         
@@ -84,8 +91,14 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="bg-portfolio-blue hover:bg-portfolio-navy text-white w-full">
-              Resume
+            <Button 
+              className="bg-portfolio-blue hover:bg-portfolio-navy text-white w-full"
+              asChild
+            >
+              <a href="/resume.pdf" download>
+                <Download className="mr-2 h-4 w-4" />
+                Resume
+              </a>
             </Button>
           </div>
         </nav>

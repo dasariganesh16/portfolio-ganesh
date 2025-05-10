@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
             I'm a B.Tech final year student passionate about building exceptional digital experiences. 
             Currently, I'm focused on expanding my skills in full-stack development.
           </p>
-          <div className="mt-8 flex space-x-4">
+          <div className="mt-8 flex flex-wrap gap-4">
             <Button 
               className="bg-portfolio-blue hover:bg-portfolio-navy text-white px-6 py-2"
               size="lg"
@@ -33,6 +34,17 @@ const Hero = () => {
               asChild
             >
               <a href="#contact">Contact Me</a>
+            </Button>
+            <Button
+              variant="secondary"
+              className="text-portfolio-navy"
+              size="lg"
+              asChild
+            >
+              <a href="/resume.pdf" download>
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </a>
             </Button>
           </div>
         </div>
