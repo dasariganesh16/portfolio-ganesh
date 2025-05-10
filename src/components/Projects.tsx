@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Railway Connect",
       description: "A railway connection application that helps users find routes, schedules, and book tickets with real-time updates.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      technologies: ["FLASK", "HTML", "CSS", "MySql"],
       githubLink: "#",
       liveLink: "#",
       image: "/train.jpg",
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "Fitness App",
       description: "A comprehensive fitness application for workout tracking, nutrition planning, and progress monitoring.",
-      technologies: ["React", "Flask", "PostgreSQL", "REST APIs"],
+      technologies: ["React", "TypeScript", "PostgreSQL", "REST APIs"],
       githubLink: "#",
       liveLink: "#",
       image: "/fitness.jpg",
