@@ -11,7 +11,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "Express", "MongoDB"],
       githubLink: "#",
       liveLink: "#",
-      image: "/placeholder.svg",
+      image: "/train.jpg",
     },
     {
       title: "Fitness App",
@@ -19,7 +19,7 @@ const Projects = () => {
       technologies: ["React", "Flask", "PostgreSQL", "REST APIs"],
       githubLink: "#",
       liveLink: "#",
-      image: "/placeholder.svg",
+      image: "/fitness.jpg",
     },
     {
       title: "Weather Dashboard",
@@ -27,7 +27,7 @@ const Projects = () => {
       technologies: ["React", "Weather API", "CSS", "JavaScript"],
       githubLink: "#",
       liveLink: "#",
-      image: "/placeholder.svg",
+      image: "/wet.jpg",
     },
   ];
 
