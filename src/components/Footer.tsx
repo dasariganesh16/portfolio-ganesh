@@ -37,7 +37,7 @@ const Footer = () => {
               <Mail size={24} />
             </a>
             <a 
-              href="/resume.pdf" 
+              href="/ganres.pdf" 
               download
               className="hover:text-portfolio-blue transition-colors"
               aria-label="Download Resume"
