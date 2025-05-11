@@ -53,7 +53,7 @@ const Navbar = () => {
             className="bg-portfolio-blue hover:bg-portfolio-navy text-white"
             asChild
           >
-            <a href="/resume.pdf" download>
+            <a href="/final.pdf" download>
               <Download className="mr-2 h-4 w-4" />
               Resume
             </a>
