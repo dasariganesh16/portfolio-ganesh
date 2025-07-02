@@ -41,7 +41,7 @@ const Hero = () => {
               size="lg"
               asChild
             >
-              <a href="/final.pdf" download>
+              <a href="Dasari_Ganesh (1).pdf" download>
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
               </a>
