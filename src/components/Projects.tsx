@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Railway Connect",
       description: "A railway connection application that helps users find routes, schedules, and book tickets with real-time updates.",
       technologies: ["FLASK", "HTML", "CSS", "MySql"],
-      githubLink: "#",
+      githubLink: "https://github.com/dasariganesh16/railwayConnect",
       liveLink: "#",
       image: "/train.jpg",
     },
